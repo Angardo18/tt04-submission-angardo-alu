@@ -27,11 +27,25 @@ documentation:
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
-      Its a 4-bit alu, can make addition, substraction, multiplication, divition and bit-and.
+      Its a 4-bit alu, can make addition, substraction, multiplication, division and bitwise-and.
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-      set S0-S3 = 0 to add, set S0-S3 = 1 to substract, set S0-S3 = 0 to multiply, 
+      set S0-S3 = 0 to add, set S0-S3 = 1 to substract, set S0-S3 = 2 to multiply, set S0-S3 = 3 to make division and set S0-S3 = 4 to bitwise-and
+      the input port is divided in two nibbles, A and B, there are the data. 
+       | Operation | result |
+       ----------------------
+       | add | A + B|
+       ----------------------
+       | substraction | A - B|
+       ----------------------
+       | multiplication | A * B|
+       ----------------------
+       | division | A / B|
+       ----------------------
+       | bitwise and | A & B|
+    
+      
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
