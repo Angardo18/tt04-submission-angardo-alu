@@ -18,7 +18,7 @@ module tt_um_alu (
     assign uo_out = result;
     
     assign uio_oe = 8'h00;
-    
+    assign uio_out = 8'h00;
     
     always@(posedge clk) begin
 
