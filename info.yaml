@@ -31,17 +31,16 @@ documentation:
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-      set S0-S3 = 0 to add, set S0-S3 = 1 to substract, set S0-S3 = 2 to multiply, set S0-S3 = 3 to make division and set S0-S3 = 4 to bitwise-and
-      the input port is divided in two nibbles, A and B, there are the data. 
-      
-       |  Operation | result |
-       |------------|--------|
-       |  add       |   A + B|
-       |substraction| A - B  |
-       | multiplication | A * B|
-       | division | A / B|
-       | bitwise and | A & B|
-    
+      A and B input are the data for ALU, S is the operation selects, in the next table we presents the operations
+
+    | operation | S |  Result |
+    |---------|------|-|
+    addition | 0 | A + B|
+    |substraction| 1 | A - B|
+    | multiplication| 2 | A * B|
+    | division | 3 |  A/B |
+    | bitwise and | 4 |A & B| 
+        
       
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
