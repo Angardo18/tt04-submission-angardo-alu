@@ -12,6 +12,6 @@ addition | 0 | A + B|
 |substraction| 1 | A - B|
 | multiplication| 2 | A * B|
 | division | 3 |  A/B |
-| bitwise and | 4 A & B| 
+| bitwise and | 4 |A & B| 
 
 
