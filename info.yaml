@@ -33,16 +33,13 @@ documentation:
   how_to_test:  |
       set S0-S3 = 0 to add, set S0-S3 = 1 to substract, set S0-S3 = 2 to multiply, set S0-S3 = 3 to make division and set S0-S3 = 4 to bitwise-and
       the input port is divided in two nibbles, A and B, there are the data. 
+      
        |  Operation | result |
-       --- ---------|--------|
-       |  add       |   A + B|
        |------------|--------|
+       |  add       |   A + B|
        |substraction| A - B  |
-       |-------------|--------|
        | multiplication | A * B|
-       |-----------------|-----|
        | division | A / B|
-       |---------------|-------|
        | bitwise and | A & B|
     
       
