@@ -9,10 +9,9 @@ A and B input are the data for ALU, S is the operation selects, in the next tabl
 | operation | S |   |
 |---------|------|-|
 addition | 0 | A + B|
-|-|-|
 |substraction| 1 | A - B|
-|-|-|
 | multiplication| 2 | A * B|
-| division | 3 |  A/A |
+| division | 3 |  A/B |
+| bitwise and | 4 A & B| 
 
 
