@@ -6,7 +6,7 @@ This is an 4bit-ALU that performs 5 operations: addition, substraction, multipli
 
 A and B input are the data for ALU, S is the operation selects, in the next table we presents the operations
 
-| operation | S |   |
+| operation | S |  Result |
 |---------|------|-|
 addition | 0 | A + B|
 |substraction| 1 | A - B|
